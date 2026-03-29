@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pear Media AI Tool</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Pear Media Image & Text Generator</h1>
+
+<h2>Text Workflow</h2>
+
+<textarea id="prompt" placeholder="Enter prompt"></textarea>
+<br><br>
+
+<button onclick="enhanceText()">Enhance Text</button>
+
+<p id="enhanced"></p>
+
+<button onclick="generateImage()">Generate Image</button>
+
+<div id="images"></div>
+
+<hr>
+
+<h2>Image Workflow</h2>
+
+<input type="file" id="imageUpload">
+<button onclick="analyzeImage()">Analyze Image</button>
+
+<p id="analysis"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
